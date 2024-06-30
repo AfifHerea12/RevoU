@@ -127,7 +127,6 @@ body {
 }
 
 .message {
-    height: 100vh;
     background-color: rgb(36, 36, 36);
     display: flex;
     justify-content: center;
@@ -137,6 +136,41 @@ body {
 .message .content {
     width: 90%;
     color: rgb(249, 239, 36);
+}
+
+.message .main {
+    margin-top: 50px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.message .main .input {
+    height: 32px;
+    width: 300px;
+}
+
+.message .main .pesan {
+    width: 300px;
+    height: 200px;
+}
+
+
+.message table tr .gap{
+    padding: 0 20px 30px 20px;
+}
+.message table tr td {
+    vertical-align: top;
+}
+
+.message form .button {
+    width: 100%;
+    height: 32px;
+    background-color: rgb(249, 239, 36);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
 }
 /* Responsive */
 
