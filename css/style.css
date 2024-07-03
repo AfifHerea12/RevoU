@@ -1,8 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -187,8 +192,9 @@ body {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 50px;
         left: 0;
+        background-color: white;
     }
 
     .navbar .nav-links li {
@@ -198,5 +204,21 @@ body {
 
     .hamburger {
         display: flex;
+        margin-right: 50px;
+    }
+
+    .profile .cards1 {
+        flex-wrap: wrap !important;;
+        gap: 10px;
+    }
+
+    .message .main {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .message .main .right{
+        justify-content: center;
+        align-items: center;
     }
 }
